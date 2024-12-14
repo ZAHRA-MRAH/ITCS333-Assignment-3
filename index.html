@@ -4,10 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UOB student records</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    
 </head>
 <body>
-    
-    <table id="dataTable">
+    <div class="overflow-auto">
+    <table id="dataTable" class="striped">
         <thead>
             <tr>
                 <th>Year</th>
@@ -22,6 +25,7 @@
           <!--will be populated by the js getData function-->
         </tbody>
     </table>
+</div>
 
     <script src="index.js" defer></script>
 </body>
